@@ -1,7 +1,8 @@
 {
   "name": "vhost-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage multiple web hosts on a single server on the same port.",
+	"preferGlobal": true,
   "main": "lib/vhost-manager.js",
 	"bin": {
 		"node-vhost-manager": "bin/node-vhost-manager"
