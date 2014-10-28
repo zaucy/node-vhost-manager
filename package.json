@@ -1,0 +1,33 @@
+{
+  "name": "vhost-manager",
+  "version": "1.0.0",
+  "description": "Manage multiple web hosts on a single server on the same port.",
+  "main": "lib/vhost-manager.js",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "connect-stream": "^1.1.3",
+    "express": "^4.10.0",
+    "fs-extra": "^0.12.0",
+    "importable-module": "^1.0.0",
+    "mime": "^1.2.11",
+    "npm": "^2.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saucy/node-vhost-manager.git"
+  },
+  "keywords": [
+    "vhost",
+    "manager"
+  ],
+  "author": "Ezekiel Warren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saucy/node-vhost-manager/issues"
+  },
+  "homepage": "https://github.com/saucy/node-vhost-manager"
+}

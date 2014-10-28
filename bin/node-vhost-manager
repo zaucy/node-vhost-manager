@@ -1,0 +1,3 @@
+#! /bin/env node
+
+require(__dirname + "/../lib/vhost-manager.js");
